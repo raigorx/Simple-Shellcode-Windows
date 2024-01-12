@@ -1,0 +1,21 @@
+BasedOnStyle: Google
+Language: Cpp
+Standard: c++20
+NamespaceIndentation: All
+AlignAfterOpenBracket: Align
+ColumnLimit: 100
+BinPackArguments: false
+BinPackParameters: false
+SpacesInLineCommentPrefix:
+  Minimum: 2
+  Maximum: 2
+BraceWrapping:
+  AfterFunction: false
+BreakBeforeBraces: Attach
+SeparateDefinitionBlocks: Always
+AccessModifierOffset: '-2'
+AlignTrailingComments: 'true'
+AllowAllParametersOfDeclarationOnNextLine: 'false'
+AlwaysBreakTemplateDeclarations: 'Yes'
+ConstructorInitializerAllOnOneLineOrOnePerLine: 'true'
+SortIncludes: false

@@ -1,0 +1,12 @@
+Checks: '*,
+  -llvm-include-order,
+  -llvm-header-guard,
+  -llvmlibc-restrict-system-libc-headers,
+  -llvmlibc-callee-namespace
+  -altera-*,
+  -fuchsia-overloaded-operator,
+  -modernize-use-trailing-return-type,
+  -fuchsia-default-arguments-calls,
+  -llvmlibc-implementation-in-namespace,
+  -readability-braces-around-statements'
+FormatStyle: file
